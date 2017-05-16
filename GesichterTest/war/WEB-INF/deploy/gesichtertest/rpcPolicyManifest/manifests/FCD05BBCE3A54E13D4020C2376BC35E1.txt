@@ -1,0 +1,2 @@
+serviceClass: gesichtertest.client.GreetingService
+path: AD041F78CE90A068023A1371FA994434.gwt.rpc

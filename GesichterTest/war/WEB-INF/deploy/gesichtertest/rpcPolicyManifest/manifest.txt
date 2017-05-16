@@ -1,0 +1,3 @@
+# Module gesichtertest
+# RPC service class, partial path of RPC policy file
+gesichtertest.client.GreetingService, AD041F78CE90A068023A1371FA994434.gwt.rpc
