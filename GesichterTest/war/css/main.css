@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+header{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+
+h1{
+	color: rgb(65,96,142);
+	text-align: center;
+	margin-top:10%;
+	font-family: Raleway;
+	
+}
+
+p{
+	width: 100%;
+}
+
+#loginBox{
+	margin-top:10%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10%;
+	border-color: rgb(65,96,142);
+	border-style: solid;
+	border-width: thick;
+	padding-bottom:5%;
+}
+
+#loginPic{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+#loginButton{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#textBox{
+	padding-top:2%;
+	margin-bottom:5%;
+	border-color: white;
+	border-style: solid;
+	border-width: thick;
+
+}
+
+
+
+#navBar{
+	width:auto;
+	margin-top:1%;
+	text-align:center;
+	margin-bottom:1%;
+	display: inline-block;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#quizStarter{
+	margin-top:50%;
+	margin-bottom: 50%;
+	
+}
+
+#statisticPic{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+
+#labelName{
+	margin-top:5%;
+	
+}
+
+#line{
+	height:5px;
+}
