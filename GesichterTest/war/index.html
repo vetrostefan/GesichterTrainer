@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Gesichtstrainer</title>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 		crossorigin="anonymous"></script> -->
+			
+		<!-- Personal theme -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		
+		<!--<button class="btn btn-success" onclick="$(this).hide();"> Click me! </button>
+		
+		-->
+			
+		<div class="container">
+			<div class="row bg-info">
+				<header>
+					<div class="col-xs-12 bg-primary">
+						<p>Angemeldete Person: - </p>
+					</div>	
+				</header>
+				
+				<div class="col-xs-12">
+					<h1>Gesichtstrainer</h1>
+				</div>
+				
+				<div id="login" class="col-xs-12">
+					
+					<div id="loginBox" class="col-xs-10">
+					<img src="/Users/Fabian/Desktop/profile.jpg" class="img-circle" height="100px" width="100px" id="loginPic">
+					<form>
+					  <div class="form-group">
+					    <label for="inputNameLogin">Name</label>
+					    <input type="name" class="form-control" id="inputNameLogin" placeholder="Name">
+					  </div>
+					  <div class="form-group">
+					    <label for="inputPassword">Passwort</label>
+					    <input type="password" class="form-control" id="inputPassword" placeholder="Passwort">
+					  </div>
+					  <button type="submit" class="btn btn-default" id="loginButton"><a href="starter.html">Login</a></button>
+					</form>
+					</div>
+				</div>
+				
+			
+				<div class="col-xs-12 col-lg-12 bg-info">
+					<div id="textBox" class="col-xs-12 col-lg-12 bg-primary">
+						<p>Melden Sie sich mit Ihrem angelegtem Profil an, um alle Funktionen des Gesichtstrainers nutzen zu können. </p>
+						<p>Bei den Funktionen handelt es sich um:</p>
+						<ul>
+						<li>Training der Gesichter in Form eines Quizs</li>
+						<li>Ansicht der eingespeichteren Vokabeln</li>
+						<li>Hinzufügen neuer Vokabeln</li>
+						<li>Auswertung der Trainingsergebnisse</li>
+						</ul>
+					</div>		
+				</div>
+				
+				
+				<footer>
+					<div class="col-xs-12 bg-info">
+						<p><small>© 2017</small></p>
+					</div>	
+				</footer>
+				
+			</div>
+			
+		</div>
+		
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBzG55suldMSfsVnXHhu719A4QAbmyLNtE",
+    authDomain: "gesichtstrainer-7d4ad.firebaseapp.com",
+    databaseURL: "https://gesichtstrainer-7d4ad.firebaseio.com",
+    projectId: "gesichtstrainer-7d4ad",
+    storageBucket: "gesichtstrainer-7d4ad.appspot.com",
+    messagingSenderId: "62406254374"
+  };
+  firebase.initializeApp(config);
+</script>
+		
+		<script src="js/jquery.min.js"></script>
+		
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
